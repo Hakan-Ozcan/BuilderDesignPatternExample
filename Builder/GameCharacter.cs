@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Builder
 {
-    public class OyunKarakteri
+    public class GameCharacter
     {
         public string Ad { get; set; }
         public int SaldiriGucu { get; set; }

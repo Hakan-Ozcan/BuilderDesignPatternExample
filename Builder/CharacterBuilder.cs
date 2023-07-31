@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 namespace Builder
 {
     // İnşaatçı sınıf - KarakterBuilder
-    public abstract class KarakterBuilder
+    public abstract class CharacterBuilder
     {
-        protected OyunKarakteri karakter;
+        protected GameCharacter karakter;
 
         public void YeniKarakterOlustur()
         {
-            karakter = new OyunKarakteri();
+            karakter = new GameCharacter();
         }
 
-        public OyunKarakteri KarakteriAl()
+        public GameCharacter KarakteriAl()
         {
             return karakter;
         }

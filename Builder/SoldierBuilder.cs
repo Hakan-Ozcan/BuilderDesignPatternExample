@@ -8,7 +8,7 @@ namespace Builder
 {
 
     // Somut İnşaatçı sınıfı - AskerBuilder
-    public class AskerBuilder : KarakterBuilder
+    public class SoldierBuilder : CharacterBuilder
     {
         public override void AdBelirle()
         {

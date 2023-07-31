@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Builder
 {
     // Somut İnşaatçı sınıfı - NinjaBuilder
-    public class NinjaBuilder : KarakterBuilder
+    public class NinjaBuilder : CharacterBuilder
     {
         public override void AdBelirle()
         {

@@ -4,18 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        OyunYonetmeni yonetmen = new OyunYonetmeni();
+        GameDirector yonetmen = new GameDirector();
 
         // Asker karakterini oluşturma
-        KarakterBuilder askerBuilder = new AskerBuilder();
+        CharacterBuilder askerBuilder = new SoldierBuilder();
         yonetmen.SetKarakterBuilder(askerBuilder);
-        OyunKarakteri asker = yonetmen.KarakterOlustur();
+        GameCharacter asker = yonetmen.KarakterOlustur();
         asker.Goster();
 
         // Ninja karakterini oluşturma
-        KarakterBuilder ninjaBuilder = new NinjaBuilder();
+        CharacterBuilder ninjaBuilder = new NinjaBuilder();
         yonetmen.SetKarakterBuilder(ninjaBuilder);
-        OyunKarakteri ninja = yonetmen.KarakterOlustur();
+        GameCharacter ninja = yonetmen.KarakterOlustur();
         ninja.Goster();
     }
 }
