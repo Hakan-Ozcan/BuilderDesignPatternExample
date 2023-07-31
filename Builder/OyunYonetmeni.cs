@@ -16,7 +16,7 @@ namespace Builder
             karakterBuilder = builder;
         }
 
-        public OyunKarakteri KarakterOlustur()
+        public OyunKarakteri KarakterOlustur() //karakter olustur metodu içerisinde diğer tüm o alt metotları barındırıyor.
         {
             karakterBuilder.YeniKarakterOlustur();
             karakterBuilder.AdBelirle();

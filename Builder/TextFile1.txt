@@ -1,7 +1,7 @@
 ﻿Builder tasarım deseni, karmaşık nesnelerin adım adım oluşturulmasına olanak tanır ve nesnenin oluşturma sürecini temsil eden bir ayrı yapı oluşturur.
 Bu desen, bir nesnenin farklı yapıları oluşturmak için kullanıcıdan ayrı tutulmasını sağlar,
-böylece aynı oluşturma işlemleri farklı yapılar için kullanılabilir hale gelir
-.
+böylece aynı oluşturma işlemleri farklı yapılar için kullanılabilir hale gelir.
+
 
 Builder deseni temel olarak şu bileşenleri içerir:
 
