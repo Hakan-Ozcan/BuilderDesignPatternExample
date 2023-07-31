@@ -1,0 +1,18 @@
+﻿Builder tasarım deseni, karmaşık nesnelerin adım adım oluşturulmasına olanak tanır ve nesnenin oluşturma sürecini temsil eden bir ayrı yapı oluşturur.
+Bu desen, bir nesnenin farklı yapıları oluşturmak için kullanıcıdan ayrı tutulmasını sağlar,
+böylece aynı oluşturma işlemleri farklı yapılar için kullanılabilir hale gelir
+.
+
+Builder deseni temel olarak şu bileşenleri içerir:
+
+Ürün (Product): Oluşturulacak nesneyi temsil eder.
+
+İnşaatçı (Builder): Nesne için adım adım oluşturma işlemlerini tanımlar. Her bir adım, farklı özellikleri ayarlar.
+
+Yönetmen (Director): İnşaatçıyı kullanarak nesneyi oluşturan ve yöneten sınıftır.
+
+Bu desen, karmaşık nesnelerin oluşturulması gerektiği durumlarda kullanışlıdır ve nesne oluşturma işlemlerini daha esnek ve modüler hale getirir.
+
+C# dilinde bir kompleks örnek olarak, bir oyun karakteri yaratma senaryosunu ele alalım. 
+Oyun karakterlerinin özellikleri (saldırı gücü, savunma, hız vb.) ve ekipmanları (silah, zırh) olabilir.
+Builder deseni, farklı karakterler için farklı özelliklere ve ekipmanlara sahip karmaşık bir karakter yaratma sürecini basitleştirecektir.
